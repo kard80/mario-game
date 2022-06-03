@@ -121,12 +121,12 @@ function init() {
 	player.draw();
 	genericObjects = [
 		new GenericObject({ x: 0, y: 0, image: createImage(hills) }),
-		new GenericObject({ x: platformImage.width * 3 + 100, y: 250, image: createImage(platformSmallTall)}),
+		new GenericObject({ x: 580 * 3 + 100, y: 250, image: createImage(platformSmallTall)}),
 		new GenericObject({ x: -1, y: 470, image: platformImage }),
-		new GenericObject({ x: platformImage.width - 3, y: 470, image: platformImage}),
-		new GenericObject({ x: platformImage.width * 2 + 100, y: 470, image: platformImage}),
-		new GenericObject({ x: platformImage.width * 2 + 400, y: 470, image: platformImage}),
-		new GenericObject({ x: platformImage.width * 4 + 500, y: 470, image: platformImage}),
+		new GenericObject({ x: 580 - 3, y: 470, image: platformImage}),
+		new GenericObject({ x: 580 * 2 + 100, y: 470, image: platformImage}),
+		new GenericObject({ x: 580 * 2 + 400, y: 470, image: platformImage}),
+		new GenericObject({ x: 580 * 4 + 500, y: 470, image: platformImage}),
 	];
 	scrollOffset = 0;
 };
